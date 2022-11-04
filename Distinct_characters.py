@@ -1,13 +1,11 @@
 n=input()
 n=n.lower()
 n=list(n)
+n=set(n)
+n=list(n)
 n.sort()
-s=""
-for i in range(len(n)):
-    if n[i]==" ":
-        continue
-    x=n.count(n[i])
-    if x==1:
-        s+=n[i]
-
-print(s)
+c=""
+for i in n:
+    if i!=' ':
+        c=c+i
+print(c)
