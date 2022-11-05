@@ -1,0 +1,9 @@
+a=int(input())
+b=a*a
+c=str(a)
+d=c[::-1]
+e=int(d)*int(d)
+f=str(e)
+g=f[::-1]
+g=int(g)
+print(g==b)
